@@ -1,15 +1,12 @@
 .cover__overlay {
-    padding-top: 62.6%;
-    box-sizing: border-box;
-    height: 740px;
     width: 100%;
+    min-height: 62.5vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
     background-image: url('../../../images/background.png');
-    
     background-size: cover;
     text-decoration: none;
   }
@@ -27,4 +24,9 @@
   }
   .cover__overlay:hover::before  {
     opacity: .8;
+  }
+  @media (min-width: 1184px) {
+    .cover__overlay {
+      min-height: 740px;
+    }
   }

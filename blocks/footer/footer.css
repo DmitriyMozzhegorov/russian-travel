@@ -1,7 +1,6 @@
 .footer {
     margin: 0 auto 24px;
     max-width: calc(100% - 96px);
-    max-height: 18px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
