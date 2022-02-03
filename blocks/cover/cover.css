@@ -8,10 +8,16 @@
       max-width: 100%;
     }
   }
-  @media (min-width: 320px) and (max-width: 768px) {
+  @media (min-width: 321px) and (max-width: 768px) {
     .cover {
-      margin: 0 auto 92px;
+      margin: 0 0 88px 0;
       max-width: 100%;
+    }
+  }
+  @media (max-width: 320px) {
+    .cover {
+      max-width: 100%;
+      margin: 0 0 64px 0;
     }
   }
   
